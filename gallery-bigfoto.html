@@ -25,7 +25,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="logo" href="/"><img src="img/logo.png" alt=""></a>
+					<!--<a class="logo" href="/"><img src="img/logo.png" alt=""></a>-->
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
@@ -55,13 +55,13 @@
 			template += '</div>';
 			var feed = new Instafeed({
 				get: 'tagged',
-				tagName: 'aydboda',
+				tagName: 'mynboda',
 				clientId: '3d9c90848064457ab0d3fd26eb10b493',
 				accessToken: '3444147760.ba4c844.b5bc86926925441fab0b475d2db8da62',
 				template: template,
 				resolution: 'standard_resolution',
 				filter: function(image) {
-					return new Date(image.created_time*1000).getFullYear() === 2016;
+					return new Date(image.created_time*1000).getFullYear() === 2019;
 				}
 			});
 			feed.run();

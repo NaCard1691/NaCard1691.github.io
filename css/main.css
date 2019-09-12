@@ -62,14 +62,17 @@ h1 {
 h2 {
 	font-size: 2em;
 	font-family: "Playfair Display", serif;
-	margin: 0 0 20px;
+	/*font-family: "Rouge Script", serif;*/
+	/*margin: 0 0 20px;*/
+	margin: 0 0 10px;
 	text-transform: uppercase;
+	/*font-style: italic;*/
 }
 h3 {
 	font-size: 1.5em;
 }
 h4 {
-	font-size: 1.125em;
+	font-size: 1.225em;
 }
 h5 {
 	font-size: 0.875em;
@@ -79,7 +82,7 @@ h6 {
 }
 p {
 	margin: 0;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	line-height: 1.5;
 }
 input {
@@ -196,7 +199,7 @@ svg #heart {
 /* -3.1. Navigation
 -------------------------------------------------------------- */
 nav.navbar.navbar-default {
-	background: #DAA520;
+	background: #3d3d3d;
 	opacity: 0.7;
 	border: none;
 	border-radius: 0;
@@ -267,7 +270,7 @@ nav.navbar.navbar-default .navbar-toggle.collapsed .bottom-bar {
 nav.navbar.navbar-default.clone {
 	opacity: 1;
 	position: fixed;
-	background: #DAA520;
+	background: #3d3d3d;
 	z-index: 999;
 	transition: -webkit-transform 0.5s ease 0s;
 	transition: transform 0.5s ease 0s;
@@ -285,14 +288,14 @@ nav.navbar.navbar-default.unstick {
 }
 nav.navbar.navbar-default:before {
 	border-width: 2px 0 0 0;
-	border-style: dashed;
+	/*border-style: dashed;*/
 	border-color: #e4e4d7;
 	content: '';
 	width: 100%;
 }
 nav.navbar.navbar-default:after {
 	border-width: 0 0 2px 0;
-	border-style: dashed;
+	/*border-style: dashed;*/
 	border-color: #e4e4d7;
 	content: '';
 	width: 100%;
@@ -421,9 +424,50 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 	font-size: 5.9375em;
 	font-family: lavanderia;
 	padding-top: 40px;
-	border-bottom: 2px solid #30302f;
+	/*border-bottom: 2px solid #30302f;*/
 	padding-bottom: 11px;
 	margin-bottom: 10px;
+}
+.big-logo h5 {
+	font-size: 3.4375em;
+	font-family: lavanderia;
+	padding-top: 40px;
+	/*border-bottom: 2px solid #30302f;*/
+	padding-bottom: 11px;
+	margin-bottom: 10px;
+	/*font-weight: bold;*/
+}
+.big-logo h7 {
+	font-size: 3.9375em;
+	font-family: lavanderia;
+	padding-top: 40px;
+	/*border-bottom: 2px solid #30302f;*/
+	padding-bottom: 11px;
+	margin-bottom: 5px;
+	/*font-weight: bold;*/
+	margin-right: 550px;
+}
+.small-logo {
+	width: 370px;
+	height: 320px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -345px;
+	margin-top: -260px;
+	line-height: 63px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 2px #30302f;
+}
+.small-logo h1 {
+	font-size: 3.9375em;
+	font-family: lavanderia;
+	padding-top: 40px;
+	/*border-bottom: 2px solid #30302f;*/
+	padding-bottom: 11px;
+	/*font-weight: bold;*/
+	margin-right: 50px;
 }
 .big-logo h2 {
 	font-size: 3em;
@@ -483,8 +527,48 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 .devider img {
 	width: 100%;
 }
+
+.devider2 {
+	width: 120px;
+	margin: 0 auto;
+}
+.devider2 img {
+	width: 100%;	
+}
+
+.devider3 {
+	width: 220px;
+	margin: 0 auto;
+}
+.devider3 img {
+	width: 100%;	
+}
+
+.devider4 {
+	width: 220px;
+	margin: 0 auto;
+}
+.devider4 img {
+	width: 100%;	
+}
+
+.devider5 {
+	width: 95px;
+	margin: 0 auto;
+}
+.devider5 img {
+	width: 100%;	
+}
+
+.devider6 {
+	width: 80px;
+	margin: 0 auto;
+}
+.devider6 img {
+	width: 100%;	
+}
 .about-us{
-	background: url(../img/marmol.png);
+	background: url(../img/blanco.png);
 }
 .about-us h3 {
 	font-family: "Playfair Display", serif;
@@ -572,6 +656,11 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 	font-family: "Playfair Display", serif;
 	font-size: 1.875em;
 	margin-bottom: 40px;
+}
+.love-story h6 {
+	font-family: "Playfair Display", serif;
+	font-size: 1.875em;
+	margin-bottom: 0px;
 }
 .love-story h2 img {
 	vertical-align: baseline;
@@ -833,20 +922,21 @@ select option {
 	transform-origin: 50% 50% 0;
 }
 .send-button {
-	background: url(../img/send-btn.png) no-repeat;
+	background: url(../img/send-btn-flor2.png) no-repeat;
 	border: none;
 	width: 205px;
-	height: 40px;
+	height: 100px;
 	margin-top: 34px;
-	font-size: 1em;
-	padding-bottom: 10px;
+	font-size: 1.2em;
+	padding-bottom: 00px;
 	margin-bottom: 7px;
+	padding-top: 23px;
 }
 .message-success {
 	background: url(../img/accept.png) no-repeat;
 	width: 464px;
 	height: 337px;
-	margin-left: -32px;
+	margin-left: 20px;
 }
 /* -3.11. Location
 -------------------------------------------------------------- */
@@ -868,10 +958,6 @@ select option {
 }
 /* locationIglesia
 ---------------------------------------------------------------*/
-.locationIglesia{
-	background: url(../img/marmol.png);
-}
-
 .locationIglesia h2 {
 	position: relative;
 	display: inline-block;
@@ -882,6 +968,11 @@ select option {
 }
 .locationIglesia p {
 	font-size: 1em;
+}
+
+.iglesia-fiesta {
+	border: none;
+	background: none;
 }
 
 /* -3.12. Map
@@ -932,7 +1023,7 @@ select option {
 /* -3.13. Footer
 -------------------------------------------------------------- */
 footer {
-	background-color: #DAA520;
+	background-color: #3d3d3d;
 	padding: 11px 0;
 }
 footer p {
@@ -941,7 +1032,7 @@ footer p {
 }
 .footer-lines {
 	border-width: 2px 0 2px 0;
-	border-style: dashed;
+	/*border-style: dashed;*/
 	border-color: #e4e4d7;
 	padding: 57px 0 30px;
 }

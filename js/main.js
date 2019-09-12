@@ -160,14 +160,14 @@ function executeInstafeed() {
 	template += '</div>';
 	var feed = new Instafeed({
 		get: 'tagged',
-		tagName: 'aydboda',
+		tagName: 'mynboda',
 		clientId: '3d9c90848064457ab0d3fd26eb10b493',
 		accessToken: '3444147760.ba4c844.b5bc86926925441fab0b475d2db8da62',
 		template: template,
 		resolution: 'low_resolution',
 		after: renderCarousel,
 		filter: function(image) {
-			return new Date(image.created_time*1000).getFullYear() === 2016;
+			return new Date(image.created_time*1000).getFullYear() === 2019;
 		},
 		links: true
 	});
@@ -195,7 +195,7 @@ $(window).on('load', function() {
 		// process the form
 		$.ajax({
 			type: 'POST',
-			url: "https://docs.google.com/forms/d/e/1FAIpQLSePJUP_uxmpgjeaTtqXehiy8YoQaBHBM1UAT5z4k-IFNb9qsg/formResponse?embedded=true",
+			url: "https://docs.google.com/forms/d/e/1FAIpQLSfTVfnDvJPhBo8mFzwAF93I0nocyW4IwFwqFzHvEqETeqLspw/viewform?embedded=true",
 			data: formData,
 			dataType: "xml",
 			complete: function() {
@@ -234,7 +234,7 @@ function initMap() {
 		scrollwheel: true,
 		mapTypeControl: false
 	});
-	var image = 'img/point.png';
+	var image = 'img/point-black.png';
 	var beachMarker = new google.maps.Marker({
 		position: {
 			lat: -34.864657,
@@ -259,7 +259,7 @@ function initMap2() {
 		scrollwheel: true,
 		mapTypeControl: false
 	});
-	var image = 'img/point.png';
+	var image = 'img/point-black.png';
 	var beachMarker = new google.maps.Marker({
 		position: {
 			lat: -34.868156,
