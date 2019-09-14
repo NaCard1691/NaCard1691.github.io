@@ -971,10 +971,6 @@ select option {
 }
 /* locationIglesia
 ---------------------------------------------------------------*/
-.locationIglesia{
-	background: url(../img/marmol.png);
-}
-
 .locationIglesia h2 {
 	position: relative;
 	display: inline-block;
