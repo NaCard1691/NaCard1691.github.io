@@ -67,11 +67,12 @@
 				</div>
 			</nav>
 		</header>
+
 		<!-- Main section -->
+		<!--
 		<section id="container" class="main">
 			<div class="main-content">
 				<div class="small-logo">
-					<!--<div>La</div>-->
 					<h1>La</h1>
 				</div>
 				<div class="big-logo">
@@ -80,6 +81,36 @@
 				</div>
 			</div>
 		</section>
+		-->
+
+		<section id="container" class="main">
+			<header id="myCarousel" class="carousel slide">
+		        <!-- Wrapper for slides -->
+		        <div class="carousel-inner">
+		            <div class="item active">
+		                <div class="fill" style="background-image:url('img/main-photo-nm.png');"></div>
+		                <div class="main-content">
+							<!--<div class="small-logo">
+								<h1>La</h1>
+							</div>-->
+							<div class="big-logo">
+								<!--<h1>Boda</h1>-->
+								<h5>Mía & Nacho</h5>
+							</div>
+						</div>
+		            </div>
+		            <div class="item">
+		                <div class="fill" style="background-image:url('img/foto-principal-2.png');"></div>
+		            </div>
+		            <div class="item">
+		                <div class="fill" style="background-image:url('img/foto-principal-3.png');"></div>
+		            </div>
+		        </div>
+		    </header>
+		</section>
+
+
+
 		<!-- About us -->
 		<section id="about" class="about-us">
 			<div class="container">
@@ -135,7 +166,7 @@
 							“Cuando te conocí fuiste uno más de mis amigos. Después te fui conociendo y ahí me di cuenta que
 							sos una gran persona siempre me trataste con mucho cariño y respeto.
 							Así es que te elijo para formar una linda familia y ser felices por siempre &#x1F60A.
-							¿Que más puedo decir de ti? Solamente que eres mi principe. A tú lado me siento segura y feliz”
+							¿Que más puedo decir de ti? Solamente que eres mi principe. A tú lado me siento segura y feliz.”
 							  <!-- que sos tan galante que eres mi principe-->
 						</p>
 					</div>
@@ -338,6 +369,7 @@
 				<button class="iglesia-fiesta">
 					<img onclick="location.href='fiesta.html'" src="img/btn-fiesta-2.png">
 				</button>
+
 				
 
 				<!--
@@ -411,6 +443,13 @@
 		<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-zmX9s_BxD88k1lu1JkmxHxAwzugCP10&callback=initMap2&language=en" async defer></script>-->
 
 
+
+		<!-- Script to Activate the Carousel -->
+	    <script>
+	    $('.carousel').carousel({
+	        interval: 3500 //changes the speed
+	    })
+	    </script>
 
 
 	</body>
