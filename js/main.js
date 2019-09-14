@@ -188,14 +188,14 @@ $(window).on('load', function() {
 		$('.help-block').remove();
 		// get the form data
 		var formData = {
-			'entry.46704672': $('input[name="form-name"]').val(), // name
-			'entry.1019557586': $('input[name="form-email"]').val(), //email
-			'entry.815126747': $('input[name="form-count"]').val() // count
+			'entry.1884265043': $('input[name="form-name"]').val(), // name
+			'entry.2118681044': $('input[name="form-email"]').val(), //email
+			'entry.1404274092': $('input[name="form-count"]').val() // count
 		};
 		// process the form
 		$.ajax({
 			type: 'POST',
-			url: "https://docs.google.com/forms/d/e/1FAIpQLSfTVfnDvJPhBo8mFzwAF93I0nocyW4IwFwqFzHvEqETeqLspw/viewform?embedded=true",
+			url: "https://docs.google.com/forms/d/e/1FAIpQLSfTVfnDvJPhBo8mFzwAF93I0nocyW4IwFwqFzHvEqETeqLspw/formResponse?embedded=true",
 			data: formData,
 			dataType: "xml",
 			complete: function() {
